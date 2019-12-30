@@ -1,0 +1,42 @@
+body {
+	background-color: #f1f1f1 !important;
+	font-family: Roboto !important;
+	color: #505050 !important;
+}
+
+.specialWidth{
+	width: 445px !important;
+}
+
+.card {
+	border: none !important;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.borderRed {
+	border-top:  4px solid #ff0000 !important;
+}
+
+.borderBlue {
+	border-top:  4px solid #3366ff !important;
+}
+
+.borderDarkBlue {
+	border-top:  4px solid #3333cc !important;
+}
+
+.borderOrange {
+	border-top:  4px solid #ff6600 !important;
+}
+
+.customMargins {
+	justify-content: center;
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+	.customMargins {
+		margin-left: 8rem !important;
+    	margin-right: 5rem !important;
+	} 
+}
